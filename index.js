@@ -1,4 +1,4 @@
 module.exports = {
-  translate: require("./translate"),
+  translate: require("./lib/translate"),
   source: require("./lib/source-defined")
 }
