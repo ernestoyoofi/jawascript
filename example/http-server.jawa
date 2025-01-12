@@ -1,0 +1,13 @@
+mbutuhaken "http" dadi http
+
+konstan ip iku "127.0.0.1"
+konstan port iku 3000
+konstan server iku http.createServer((req, res) => {
+  res.statusCode iku 200
+  res.setHeader("content-type","text/html")
+  res.end("Halo sahabat!")
+})
+
+server.listen(port, () => {
+  console.log(`Server mlaku ana ing ${ip}:${port}`)
+})

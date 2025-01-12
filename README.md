@@ -1,5 +1,7 @@
 # JawaScript
 
+<img src="./jawascript-icon.png" align="right" width="90"/>
+
 A script built in Javanese Language, a language that is easy to use and implement and has the same structure as JavaScript because it is only a translation.
 
 > Remember
