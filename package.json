@@ -1,0 +1,32 @@
+{
+  "name": "jawascript",
+  "version": "1.5.0",
+  "description": "Java Language",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "jawaskrip": "./lib/jawaskrip.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestoyoofi/jawascript.git"
+  },
+  "keywords": [
+    "Jawa",
+    "Java",
+    "Javanese",
+    "Javascript",
+    "Transliter"
+  ],
+  "author": "Ernestoyoofi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ernestoyoofi/jawascript/issues"
+  },
+  "homepage": "https://github.com/ernestoyoofi/jawascript#readme"
+}

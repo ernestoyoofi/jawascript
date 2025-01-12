@@ -1,0 +1,67 @@
+// Import module
+mbutuhaken "fs" dadi fileSystem
+
+// Deklarasi variabel
+konstan angkaPertama = 10
+benkedata angkaKedua = 20
+variable hasil
+
+// Fungsi
+fungsi tambah(a, b) {
+  catetan("Menambahkan ", a, " dan ", b)
+  return a + b
+}
+
+// Kondisi
+naliko(angkaPertama > angkaKedua) {
+  catetan("Angka pertama lebih besar")
+} ukoro(angkaPertama < angkaKedua) {
+  catetan("Angka kedua lebih besar")
+} liyane {
+  catetan("Angka pertama dan kedua sama")
+}
+
+// Looping
+ubengi(let i = 0; i < 5; i++) {
+  catetan("Perulangan ke-", i)
+}
+
+// Waktu
+catetan(anyar Wektu())
+const janjiTime = janjine(() => {
+  catetan("Wektu Rampung! .4s")
+},400)
+benkedata wektuLoop = gaweMumet(() => {
+  catetan("Looping!")
+}, 420)
+rampungMumet(wektuLoop)
+rampungJanjine(janjiTime)
+
+// Jenis data
+naliko(jenise angkaPertama === wilangan) {
+  catetan("Ini adalah angka")
+}
+
+// Error handling
+nyobake {
+  perkoroAnyar("Jaluk gedang")
+} njupuk(error) {
+  catetan("Terjadi error:", error)
+} akire {
+  catetan("Selesai mencoba")
+}
+
+// Class
+taterapan Hewan {
+  kontrusi(jenis) {
+    iki.jenis = jenis
+  }
+
+  berbicara() {
+    catetan("Saya adalah", iki.jenis)
+  }
+}
+
+// Instansiasi class
+benkedata kucing = anyar Hewan("Kucing")
+kucing.berbicara()
