@@ -13,7 +13,7 @@ A script built in Javanese Language, a language that is easy to use and implemen
 Install this repository on your global package module
 
 ```
-npm i jawascript@https://github.com/ernestoyoofi/jawascript
+npm i -g jawascript@https://github.com/ernestoyoofi/jawascript
 ```
 
 Then try running it with this command, you can also compaling from .jawa to .js
@@ -27,3 +27,7 @@ Use the --dir flag to compaliling the language in your folder which will appear 
 ```
 jawaskrip --dir ~/usr/app 
 ```
+
+## Example
+
+Check [this folder](./example)
