@@ -60,6 +60,10 @@ taterapan Hewan {
   berbicara() {
     catetan("Saya adalah", iki.jenis)
   }
+
+  async diam() {
+    catetan("Berdiam")
+  }
 }
 
 // Instansiasi class
