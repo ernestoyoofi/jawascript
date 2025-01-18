@@ -94,7 +94,7 @@
   const bySearch = ModuleMarkdownReader.filter(a => (new URLSearchParams(location.search).get("page") === a.reader))[0]
   const RunFirst = ModuleMarkdownReader.filter(a => (!!a.reader))[0]
   if(bySearch || RunFirst) {
-    ReadingFile(bySearch.reader || RunFirst.reader)
+    ReadingFile(bySearch?.reader || RunFirst?.reader)
   }
   document.querySelectorAll('[data-btn-nav]').forEach(a => {
     a.addEventListener("click", () => {
