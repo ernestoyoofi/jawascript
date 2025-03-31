@@ -1,0 +1,57 @@
+site_name: Jawascript
+site_url: https://ernestoyoofi.github.io/jawascript
+site_author: Ernestoyoofi
+site_descriptions: A script built in Javanese Language, a language that is easy to use and implement and has the same structure as JavaScript
+theme:
+  name: material
+  logo: https://raw.githubusercontent.com/ernestoyoofi/jawascript/main/jawascript-icon.png
+  favicon: https://raw.githubusercontent.com/ernestoyoofi/jawascript/main/jawascript-icon.png
+  features:
+    - content.footnote.tooltips
+    - navigation.tabs
+    - navigation.instant
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+repo_name: ernestoyoofi/jawascript
+repo_url: https://github.com/ernestoyoofi/jawascript
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+
+nav:
+  - Introduction: 
+    - Introduction: introduction/index.md
+    - Installation: introduction/installation.md
+  - Syntax:
+    - "Data Type": syntax/data-type.md
+    - Log: syntax/log.md
+    - Operation: syntax/operation.md
+    - "True False": syntax/true-false.md
+    - Function: syntax/function.md
+    - Error: syntax/error.md
+    - Looping: syntax/looping.md
+    - Other: syntax/other.md

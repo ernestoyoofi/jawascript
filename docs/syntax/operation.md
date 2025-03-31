@@ -14,7 +14,7 @@ And for some operations like `if` `else if` and `else` are replaced like this:
 
 For example see below
 
-## 🍵 Operations
+## Operations
 
 ```js
 naliko(a luwihSeko b) {
@@ -29,7 +29,7 @@ naliko(a luwihSeko b) {
 }
 ```
 
-## 🍵 luwihSeko / More than
+## luwihSeko / More than
 
 ```js
 naliko(a luwihSeko b) {
@@ -45,7 +45,7 @@ if(a > b) {
 }
 ```
 
-## 🍵 luwihSitik / Less than
+## luwihSitik / Less than
 
 ```js
 naliko(a luwihSitik b) {
@@ -61,7 +61,7 @@ if(a < b) {
 }
 ```
 
-## 🍵 oraSepadan / Not the same
+## oraSepadan / Not the same
 
 ```js
 naliko(a oraSepadan b) {

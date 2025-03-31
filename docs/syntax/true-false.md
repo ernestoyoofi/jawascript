@@ -1,6 +1,8 @@
 # Syntax True & False
 
-> This section still has a lot of improvements, although I don't know when it will be fixed.
+!!! bug
+
+    This section still has a lot of improvements, although I don't know when it will be fixed.
 
 You can use several types, here are two, just use one of them :
 
