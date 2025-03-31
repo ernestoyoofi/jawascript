@@ -43,9 +43,8 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - Introduction: 
-    - Introduction: introduction/index.md
-    - Installation: introduction/installation.md
+  - Home: index.md
+  - Installation: installation.md
   - Syntax:
     - "Data Type": syntax/data-type.md
     - Log: syntax/log.md
